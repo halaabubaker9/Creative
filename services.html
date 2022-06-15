@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/a1ce1da2a8.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Tech Deal</title>
+</head>
+<body>
+
+<section class="sub-header">
+
+    <nav>
+        <a href="index.html"><img src="imgs/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="value.html">OUR VALUES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>SERVICES</h1>
+</section>
+
+<section class="services">
+    <div class="row">
+
+        <div class="ser-col">
+            <h3>Network Services</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, culpa? Nulla ut sit eum, unde fugiat iusto quos dolorem explicabo </p>
+        </div>
+
+        <div class="ser-col">
+            <h3>Cloud Services</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, culpa? Nulla ut sit eum, unde fugiat iusto quos dolorem explicabo </p>
+        </div>
+
+        <div class="ser-col">
+            <h3>Appliction </h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, culpa? Nulla ut sit eum, unde fugiat iusto quos dolorem explicabo </p>
+        </div>
+
+        <div class="ser-col">
+            <h3>Websites & Web Portals</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, culpa? Nulla ut sit eum, unde fugiat iusto quos dolorem explicabo </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="branch">
+    <h1>Our Branches</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br> Accusantium sunt voluptatibus atque totam.</p>
+
+    <div class="row">
+        <div class="branch-col">
+            <img src="imgs/build1.jpg">
+
+            <div class="layer">
+                <h3>Paris</h3>
+            </div>
+
+        </div>
+
+        <div class="branch-col">
+            <img src="imgs/build2.jpg">
+
+            <div class="layer">
+                <h3>Tokyo</h3>
+            </div>
+
+        </div>
+
+        <div class="branch-col">
+            <img src="imgs/build3.jpg">
+
+            <div class="layer">
+                <h3>Silicon Vally</h3>
+            </div>
+
+        </div>
+    </div>
+    
+</section>
+
+<section class="footer">
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+
+    <p>Made With Pure <i class="fa-regular fa-heart"></i> By Hala Abu Baker</p>
+</section>
+
+    
+</body>
+</html>
+
+
+
+<!------------ java script ------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
