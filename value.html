@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/a1ce1da2a8.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Tech Deal</title>
+</head>
+<body>
+
+<section class="sub-header">
+
+    <nav>
+        <a href="index.html"><img src="imgs/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="value.html">OUR VALUES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Values</h1>
+
+</section>
+<section class="value">    
+    <div class="row">
+        <div class="value-col">
+            <img src="imgs/val1.jpg" alt="" srcset="">
+            <h3>Communication</h3>
+            <p>We Promise To Listen To Your Needs And Keep You In The Know With Each Soultion Implemented.</p>
+        </div>
+
+        <div class="value-col">
+            <img src="imgs/val2.svg" alt="" srcset="">
+            <h3>Transparency</h3>
+        <p>We Commit To Keeping You Informed Througout So That You Can Make The Best Dscisions For Your Company.</p>
+        </div>
+        
+
+        <div class="value-col">
+            <img src="imgs/val.webp" alt="" srcset="">
+            <h3>Accuracy</h3>
+            <p>Precision Is Out Goal In Every Task,Our Team Of Experts Collaborate To Cross-Check Every Action.</p>
+        </div>
+
+    </div>
+
+    
+</section>
+
+
+<section class="footer">
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+
+    <p>Made With Pure <i class="fa-regular fa-heart"></i> By Hala Abu Baker</p>
+</section>
+
+</body>
+</html>
+
+
+
+<!------------ java script ------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>

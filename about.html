@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://use.fontawesome.com/a1ce1da2a8.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Tech Deal</title>
+</head>
+<body>
+
+<section class="sub-header">
+
+    <nav>
+        <a href="index.html"><img src="imgs/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+        <i class="fa fa-xmark" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="value.html">OUR VALUES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+
+</section>
+
+<section class="about">
+    <div class="row">
+        <div class="about-col">
+            <h1>THE PLACE OF CREATIVITY</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, recusandae? Delectus laudantium temporibus quidem inventore distinctio doloribus dolorum, accusamus expedita velit neque veniam est nisi, maxime, minus natus earum modi.</p>
+            <a href="services.html" class="btn">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="imgs/about.jpeg" alt="" srcset="">
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit quaerat <br> consequatur ex, fuga blanditiis debitis ad fugit tenetur optio soluta sapiente recusandae porro odio error sunt? Facilis, praesentium eius.</p>
+
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-twitter"></i>
+    </div>
+
+    <p>Made With Pure <i class="fa-regular fa-heart"></i> By Hala Abu Baker</p>
+</section>
+
+    
+</body>
+</html>
+
+
+
+<!------------ java script ------------->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
